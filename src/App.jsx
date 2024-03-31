@@ -31,6 +31,10 @@ function App() {
       <Routes>
         <Route path="" element={<Layout />}>
           <Route path="/" element={<HomePage />} />
+          <Route
+            path="https://sparshj94.github.io/ecommerce_frontend/"
+            element={<HomePage />}
+          />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/category/:pid" element={<MensCategoryPage />} />
